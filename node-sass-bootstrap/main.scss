@@ -1,0 +1,64 @@
+
+/*accordion*/
+$accordion-border-color:0;
+$accordion-bg:#2d2d2d;
+$accordion-button-color:#ffff;
+$accordion-button-active-bg:#2d2d2d;
+$accordion-button-active-color:#faf9f9;
+$accordion-button-focus-box-shadow:none;
+$accordion-button-focus-background-color:none;
+$accordion-icon-color: #fff;
+$accordion-icon-active-color:#fff;
+$accordion-padding-y:1.6rem;
+$accordion-padding-x:2rem;
+.accordion-body{
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: left;
+}  
+.accordion-body >p{
+    margin: 1rem 0;
+}
+.accordion-item{
+    margin: 7px 0;
+     
+}
+.accordion-flush > .accordion-item > .accordion-header .accordion-button, .accordion-flush > .accordion-item > .accordion-header .accordion-button.collapsed {
+    border-radius: 0;
+    font-size: 1.7rem;
+    height: 6rem;
+    border-bottom: 2px solid black;
+}
+.accordion-button:hover {
+    z-index: 2;
+    background-color: #444444;
+}
+@media (max-width:576px) {
+    .accordion-flush > .accordion-item > .accordion-header .accordion-button, .accordion-flush > .accordion-item > .accordion-header .accordion-button.collapsed {
+        border-radius: 0;
+        font-size: 1rem;
+        height: 4rem;
+        border-bottom: 2px solid black;
+    }
+    .accordion-body {
+        color: #fff;
+        font-size: 0.8rem;
+        text-align: left;
+        
+    }
+    .accordion-body>p {
+    margin: 5px;
+    }
+    
+    .accordion.accordion-flush {
+        --bs-accordion-btn-padding-x: 1rem;
+        --bs-accordion-btn-padding-y: 1rem;
+        --bs-accordion-btn-icon-width: 1.5rem;
+        --bs-accordion-body-padding-x: 1rem;
+        --bs-accordion-body-padding-y: 1rem;
+    }
+}
+$accordion-icon-width:2.5rem;
+$accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='#ffff' class='bi bi-plus-lg' viewBox='0 0 16 16'><path fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2'/></svg>");
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='#ffff' class='bi bi-x-lg' viewBox='0 0 16 16'><path d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z'/></svg>");
+@import '../node-sass-bootstrap/node_modules/bootstrap/scss/bootstrap.scss';
