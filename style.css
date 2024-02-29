@@ -182,7 +182,7 @@ img.tv_frame {
 div#video_frame_bg {
   width: 27%;
   position: absolute;
-  bottom: -63%;
+  bottom: -75%;
   overflow: hidden;
 }
 video.video_background {
@@ -259,7 +259,7 @@ div#vid-show {
 div#vid-show {
   position: absolute;
   right: 18%;
-  bottom: -227%;
+  bottom: -248%;
   overflow: hidden;
   width: 24%;
 }
